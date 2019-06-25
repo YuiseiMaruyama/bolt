@@ -1,0 +1,176 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header{
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed; 
+  justify-content: space-around;
+  width: 100%; 
+}
+
+.contact__btn{
+  padding: 14px 12px;
+  font-size: 12px;
+  background-color: #74cfae;
+  color: #fff;
+}
+
+.main{
+  padding-top: 70px;
+}
+
+.bolt-theme{
+  background-color: #f2f2f2;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+.bolt__title{
+  font-size: 90px;
+  font-weight: 700px;
+  color: #74cfae;
+}
+
+.bolt__subtitle{
+  font-size: 30px;
+  padding-top: 20px;
+  color: #c0c0c0;
+}
+
+.what_we_can_do{
+  display: flex;
+  justify-content: space-around;
+  background-color: #74cfae;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.what_we_can_do__text{
+  text-align: center;
+}
+
+.what_we_can_do__title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+
+.what_we_can_do__subtitle{
+  padding-top: 35px;
+  font-size: 20px;
+}
+
+.our_latest_work{
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.our_latest_work__title{
+  
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.our_latest_work__imgs{
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.our_latest_work__imgs > img{
+  margin-bottom: 80px;
+}
+
+.our_latest_work__imgs > img:nth-child(n+4){
+  margin-bottom: 0;
+}
+
+.our_latest_work__imgs > img:nth-child(3n-1){
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.our_latest_work__footer{
+  margin: 0 auto;
+}
+
+.our_latest_work__text{
+  display: inline-block;
+  margin-right: 90px;
+}
+
+.email__btn{
+  font-size: 12px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  /* float: left; */
+  color: #fff;
+}
+
+.our_skills{
+  background-color: #333;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.our_skills_text{
+  color: #fff;
+  text-align: center;
+}
+
+.our_skills_imgs{
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.our_skills_common{
+  text-align: center;
+}
+
+.our_skills_circle{
+  color: #fff;
+  padding-left: 180px;
+  float: left;
+  text-align: center;
+}
+
+.our_skills_circle:first-child{
+  padding-left: 0;
+}
+
+.sns__links{
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #f2f2f2;
+}
+
+.sns_icons{
+  font-size: 0;
+}
+
+.sns_icons__common{
+  display: inline-block;
+  width: 185px;
+  background-color: #fff;
+  color: #74cfae;
+  font-size:12px;
+}
+
+.footer{
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #74cfae;
+  color: #fff;
+}
