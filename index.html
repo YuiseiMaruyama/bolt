@@ -7,7 +7,7 @@
     <meta name="description" content="This is my portfolio site.">
     <meta name="keyword" content="bolt, bootstrap, portfolio">
     <!--viewportの幅は端末やブラウザアプリ毎によって異なる -->
-    <meta name="viewport" content="width=1100px"> 
+    <meta name="viewport" content="width=device-width"> 
     <title>Bolt - Free Bootstrap 3 Theme</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
@@ -22,93 +22,105 @@
 
   <body>
     <header class="header">
+      <div class="inner header__inner">
         <div class="bolt__logo">
             <i class="fas fa-bolt fa-2x bolt_icon"></i>
         </div>
-        <div class="contact__btn">
+        <a class="contact__btn" href="">
           Contact
-        </div>
+        </a>
+      </div>
     </header>
 
     <main class="main">
       <div>
         <section class="bolt-theme">
-          <h1 class="bolt__title">Bolt Theme</h1>
-          <p class="bolt__subtitle">FREE BOOTSTRAP THEMES</p>
+          <div class="inner">
+            <h1 class="bolt__title">Bolt Theme</h1>
+            <p class="bolt__subtitle">FREE BOOTSTRAP THEMES</p>
+          </div>
         </section>
 
         <section class="what_we_can_do">
-            <img src="img/iphone.png" alt="">
+          <div class="inner">
+            <img  src="img/iphone.png" alt="">
             <div class="what_we_can_do__text">
               <h2 class="what_we_can_do__title">WHAT WE CAN DO?</h2>
               <p class="what_we_can_do__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>Lorem Ipsum has been the industry's standard dummy text ever since the <br> 1500s, when an unknown printer took a galley of type and scrambled it to <br> make a type specimen book.</p>
             </div>
+          </div>
         </section>
 
         <article class="our_latest_work clearfix">
-          <h2 class="our_latest_work__title">OUR LATEST WORK</h2>
-          <div class="our_latest_work__imgs">
-              <img  src="img/01.jpg" alt="">
-              <img  src="img/02.jpg" alt="">
-              <img  src="img/03.jpg" alt="">
-              <img  src="img/04.jpg" alt="">
-              <img  src="img/05.jpg" alt="">
-              <img  src="img/06.jpg" alt="">
-          </div>
-          <div class="our_latest_work__footer">
-            <p class="our_latest_work__text">Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum has been the industry's standard dummy <br>text ever.</p>
-            <a class="email__btn">
-              Email Me!
-            </a>
+          <div class="inner our_latest_work__inner">
+            <h2 class="our_latest_work__title">OUR LATEST WORK</h2>
+            <div class="our_latest_work__imgs">
+                <img class="our_latest_work__common" src="img/01.jpg" alt="">
+                <img class="our_latest_work__common" src="img/02.jpg" alt="">
+                <img class="our_latest_work__common" src="img/03.jpg" alt="">
+                <img class="our_latest_work__common" src="img/04.jpg" alt="">
+                <img class="our_latest_work__common" src="img/05.jpg" alt="">
+                <img class="our_latest_work__common" src="img/06.jpg" alt="">
+            </div>
+            <div class="our_latest_work__footer">
+              <p class="our_latest_work__text">Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum has been the industry's standard dummy <br>text ever.</p>
+              <a class="email__btn">
+                Email Me!
+              </a>
+            </div>
           </div>
         </article>
 
         <section class="our_skills clearfix">
-          <h2 class="our_skills_text">OUR SKILLS</h2>
-          <figure class="our_skills_imgs ">
-            <div class="our_skills_common">
-              <div class="our_skills_circle">
-                <img  src="img/circle_01.png" alt="">
-                <figcaption >JavaScript</figcaption>
+          <div class="inner">
+            <h2 class="our_skills_text">OUR SKILLS</h2>
+            <figure class="our_skills_imgs ">
+              <div class="our_skills_common">
+                  <div class="our_skills_circle">
+                  <img class="our_skills_img" src="img/circle_01.png" alt="">
+                  <figcaption>JavaScript</figcaption>
+                </div>
+                <div class="our_skills_circle">
+                  <img class="our_skills_img" src="img/circle_02.png" alt="">
+                  <figcaption>Bootstrap</figcaption>
+                </div>
+                <div class="our_skills_circle">
+                  <img class="our_skills_img" src="img/circle_03.png" alt="">
+                  <figcaption>WordPress</figcaption>
+                </div>
+                <div class="our_skills_circle">
+                  <img class="our_skills_img" src="img/circle_04.png" alt="">
+                  <figcaption>PhotoShop</figcaption>
+                </div>
               </div>
-              <div class="our_skills_circle">
-                <img  src="img/circle_02.png" alt="">
-                <figcaption >Bootstrap</figcaption>
-              </div>
-              <div class="our_skills_circle">
-                <img  src="img/circle_03.png" alt="">
-                <figcaption >WordPress</figcaption>
-              </div>
-              <div class="our_skills_circle">
-                <img  src="img/circle_04.png" alt="">
-                <figcaption >PhotoShop</figcaption>
-            </div>
+            </figure>
           </div>
-          </figure>
         </section>
 
-        <section class="sns__links clearfix">
-          <div class="sns_icons">
-            <a class="sns_icons__common" href="">
-              <i class="fab fa-facebook-f fa-2x"></i>
-            </a>
-            <a class="sns_icons__common" href="">
-              <i class="fas fa-basketball-ball fa-2x"></i>
-            </a>
-            <a class="sns_icons__common" href="">
-              <i class="fab fa-twitter fa-2x"></i>
-            </a>
-            <a class="sns_icons__common" href="">
-              <i class="fas fa-envelope fa-2x"></i>
-            </a>
+        <nav class="sns__links clearfix">
+          <div class="inner">
+            <div class="sns_icons">
+              <a class="sns_icons__common" href="">
+                <i class="fab fa-facebook-f fa-4x"></i>
+              </a>
+              <a class="sns_icons__common" href="">
+                <i class="fas fa-basketball-ball fa-4x"></i>
+              </a>
+              <a class="sns_icons__common" href="">
+                <i class="fab fa-twitter fa-4x"></i>
+              </a>
+              <a class="sns_icons__common" href="">
+                <i class="fas fa-envelope fa-4x"></i>
+              </a>
+            </div>
           </div>
-        </section>
+        </nav>
         
       </div>
     </main>
     <footer class="footer">
-      <div>
-        <h3>Crafted with <i class="fas fa-heart"></i> by BlackTie.co.</h3>
+      <div class="inner">
+        <h3 class="footer__text">Crafted with <i class="fas fa-heart"></i> by BlackTie.co.</h3>
       </div>
     </footer>
   </body>
