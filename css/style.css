@@ -1,3 +1,15 @@
+body{
+  font-family: Lato;
+}
+
+a{
+  text-decoration: none;
+}
+
+.is-raleway{
+  font-family: Raleway;
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -12,6 +24,7 @@
   justify-content: space-around;
   width: 100%; 
   background-color: #fff;
+  z-index: 1;
 }
 
 .inner{
@@ -35,7 +48,6 @@
   background-color: #74cfae;
   color: #fff;
   vertical-align: top;
-  text-decoration: none;
 }
 
 .contact__btn:hover{
@@ -53,6 +65,7 @@
   padding-top: 250px;
   padding-bottom: 250px;
   text-align: center;
+  font-family: Raleway;
 }
 
 .bolt__title{
@@ -63,34 +76,38 @@
 
 .bolt__subtitle{
   font-size: 30px;
-  padding-top: 20px;
+  margin-top: 20px;
   color: #c0c0c0;
 }
 
 .what_we_can_do{
-  display: flex;
-  justify-content: space-around;
   background-color: #74cfae;
   padding-top: 50px;
   color: #fff;
   width: 100%; 
 }
 
+.what_we_can_do__inner{
+  display: flex;
+  justify-content: space-between;
+}
 
 .what_we_can_do__text{
   vertical-align: top;
   display: inline-block;
   text-align: center;
-  margin-left: 100px
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .what_we_can_do__title{
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
+  display: inline-block;
 }
 
 .what_we_can_do__subtitle{
-  padding-top: 35px;
+  margin-top: 35px;
   font-size: 20px;
 }
 
@@ -110,32 +127,36 @@
 }
 
 .our_latest_work__imgs{
-  margin: 0 auto;
   float: left;
-  padding-top: 40px;
-  padding-bottom: 90px;
+  margin-top: 40px;
+  margin-bottom: 90px;
   font-size: 0;
   line-height: 0;
+  z-index: 0;
+}
+
+.our_latest_work__link{
+  display: inline-block;
 }
 
 .our_latest_work__common{
   opacity: 0.7;
+  transition: opacity 0.3s;
 }
 
 .our_latest_work__common:hover{
   opacity: 1.0;
-  transition: opacity 0.3s;
 }
 
-.our_latest_work__imgs > img{
-  margin-bottom: 80px;
+.our_latest_work__link{
+  margin-top: 80px;
 }
 
-.our_latest_work__imgs > img:nth-child(n+4){
-  margin-bottom: 0;
+.our_latest_work__link:nth-child(-n+3){
+  margin-top: 0;
 }
 
-.our_latest_work__imgs > img:nth-child(3n-1){
+.our_latest_work__link:nth-child(3n-1){
   margin-left: 100px;
   margin-right: 100px;
 }
@@ -174,7 +195,7 @@
 .our_skills_title{
   color: #fff;
   text-align: center;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
 }
@@ -195,13 +216,13 @@
 
 .our_skills_circle{
   color: #fff;
-  padding-left: 180px;
+  margin-left: 180px;
   float: left;
   text-align: center;
 }
 
 .our_skills_circle:first-child{
-  padding-left: 0;
+  margin-left: 0;
 }
 
 .sns__links{
@@ -221,13 +242,12 @@
   color: #74cfae;
   padding-top: 30px;
   padding-bottom: 30px;
+  /* 0.3秒かけて背景色をアニメーションさせる */
+  transition: background-color 0.3s;
 }
 
 .sns_icons__common:hover{
   background-color: #fff;
-
-  /* 0.3秒かけて背景色をアニメーションさせる */
-  transition: background-color 0.3s;
 }
 
 .footer{
