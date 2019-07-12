@@ -250,7 +250,6 @@
     width: 100%; 
   }
 
-
   .our_latest_work__imgs{
     float: left;
     margin-bottom: 90px;
@@ -379,7 +378,7 @@
   .br-pc{
     display: none;
   }
-  
+
   .our_skills{
     text-align: center;
   }
@@ -458,9 +457,15 @@
     padding-right: 70px;
   }
   
+  .our_latest_work__title{
+    margin-bottom: 40px;
+  }
+
   .our_latest_work__imgs{
     display: block;
     margin-bottom: 80px;
+    width: 300px;
+    margin: 0 auto;
   }
   
   .our_latest_work__link{
@@ -481,6 +486,7 @@
   
   .our_latest_work__text{
     display: block;
+    margin-top: 90px;
     margin-bottom: 40px;
   }
 
