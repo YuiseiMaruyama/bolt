@@ -393,10 +393,13 @@
     margin-top: 0;
   }
   
-  .sns_icons__common{
+  .sns_icons{
     display: flex;
-    float: left;
+    /* float: left; */
     justify-content: space-around;
+  }
+
+  .sns_icons__common{
   }
 
 }
