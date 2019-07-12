@@ -87,8 +87,6 @@
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    padding-left: 120px;
-    padding-right: 120px;
   }
 
   .what_we_can_do__title{
@@ -207,8 +205,8 @@
 
   .sns__links{
     text-align: center;
-    padding-top: 200px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #f2f2f2;
   }
 
@@ -336,18 +334,15 @@
     margin: 0 auto;
   }
   
-  .what_we_can_do__text{
+  /* .what_we_can_do__text{
     display: inline-block;
-  }
+  } */
   
   .what_we_can_do__title{
     margin-top: 20px;
+    margin-bottom: 35px;
   }
-  
-  .what_we_can_do__subtitle{
-    padding-left: 70px;
-    padding-right: 70px;
-  }
+
   
   .our_latest_work__imgs{
     display: block;
@@ -356,6 +351,8 @@
   
   .our_latest_work__link{
     display: block;
+    max-width: 300px;
+    margin: 0 auto;
   }
   
   .our_latest_work__link:first-child{
@@ -396,6 +393,12 @@
     margin-top: 0;
   }
   
+  .sns_icons__common{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+  }
+
 }
 
 
@@ -405,11 +408,6 @@
   .inner{
     width: 97%;
     margin: 0 auto;
-  }
-
-  .header__inner{
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
   .bolt__logo{
     float: left;
@@ -453,8 +451,8 @@
   .what_we_can_do__subtitle{
     margin-top: 35px;
     font-size: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
+    /* padding-left: 70px;
+    padding-right: 70px; */
   }
   
   .our_latest_work__title{
@@ -501,7 +499,7 @@
   .our_skills_title{
     margin-bottom: 35px;
   }
-  
+
   .our_skills_circle{
     color: #fff;
     margin-top: 88px;
