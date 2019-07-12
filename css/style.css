@@ -395,11 +395,7 @@
   
   .sns_icons{
     display: flex;
-    /* float: left; */
     justify-content: space-around;
-  }
-
-  .sns_icons__common{
   }
 
 }
